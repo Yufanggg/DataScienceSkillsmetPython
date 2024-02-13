@@ -1,0 +1,26 @@
+
+#########
+Uploading
+# direct to the files
+cd C:\Users\Alisa_Wang\Desktop\EfDs
+
+# make the file into a respositories， 在这个文件夹里开始版本控制
+git init
+
+# add the document you are going to save
+git add my_first_document.ipynb   # git add .  => you are going to save everything in the file
+
+# to save the version you want to save
+git commit -m "first git try"
+
+git log # to check
+
+# to upload your respositories to github
+## Can be accessed on the github respositories you created
+git remote add origin https://github.com/Yufanggg/GitTry.git # add https://github.com/Yufanggg/GitTry.git to "origin"
+git branch -M main # to change to main version
+git push -u origin main # pushing the changes to the "origin" in the github
+
+##########
+downloading
+git clone "address of the git file"
