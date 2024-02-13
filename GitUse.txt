@@ -21,6 +21,13 @@ git remote add origin https://github.com/Yufanggg/GitTry.git # add https://githu
 git branch -M main # to change to main version
 git push -u origin main # pushing the changes to the "origin" in the github
 
+##update your changes
+git add + "name of the file you're willing to upload"
+git commit -m "the name of this change"
+git push # issues like "Updates were rejected because the remote contains work that you do not" means the existence of some changes that does not exist in the old git. => "git pull" first
 ##########
 downloading
 git clone "address of the git file"
+
+##update the downloaded file
+git pull
