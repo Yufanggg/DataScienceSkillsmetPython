@@ -1,1 +1,1 @@
-To test git functions
+Skills sets as a data scientist
